@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Battle Phase</title>
+    <link rel="stylesheet" href="css/battle.css">
+    <script type="text/javascript" src="js/battle.js">
+    </script>
+  </head>
+  <body>
+    <h1>Battle Mode</h1>
+    <table>
+      <tr>
+        <td>
+          <h4 id="charName">Lucian</h4><img src="img/player.png" alt="playerIcon">
+        <h2>HP:<span id="health">10</span></h2></td>
+        <td><h1>VS</h1></td>
+        <td><h4 id="charName2">Brand</h4><img src="img/player.png" alt="playerIcon">
+        <h2>HP:<span id="health1">10</span></h2></td>
+      </tr>
+      <tr>
+        <td>
+          <select id="attacks" name="attack">
+          <option value="sword">Sword</option>
+          <option value="bow">Bow</option>
+          <option value="magic">Magic</option>
+          <option value="block">Block</option>
+        </select>
+      <button type="button" name="button" onclick="gameEngine()">Attack</button></td>
+        <td></td>
+        <td><h3 id="p2Attack">Sword</h3></td>
+      </tr>
+
+    </table>
+  </body>
+</html>
